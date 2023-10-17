@@ -1,0 +1,87 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#navbar ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;  
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#navbar::before{
+    content: '';
+    opacity: 1.2;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+#navbar ul li a{
+    display: block;
+    color: black;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navbar ul li a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.367);
+}
+
+#about {
+    background-color: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+}
+
+#portfolio {
+    background-color: #d7d2d2d4;
+    padding: 40px;
+}
+
+.content {
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+}
+#contact {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.social-icon {
+    margin: 0 10px;
+    font-size: 24px;
+    color: rgba(35, 32, 32, 0.819);
+    text-decoration: none; 
+  }
+
+.social-icon i:hover{
+    font-size: 35px;
+    color: rgb(8, 8, 8);
+}
